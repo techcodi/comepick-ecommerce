@@ -1,0 +1,35 @@
+.feature-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 2rem;
+  border-radius: 8px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  min-width: 220px;
+  gap: 1rem;
+  flex: 1 1 200px;
+}
+
+.feature-icon {
+  font-size: 2rem;
+}
+
+.feature-text h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.feature-text p {
+  margin: 0;
+  color: gray;
+  font-size: 0.9rem;
+}

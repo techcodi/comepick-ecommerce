@@ -1,0 +1,128 @@
+.checkout {
+  min-width: 100px;
+  padding-top: 8rem;
+}
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin-left: 8rem;
+}
+.checkout ul {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.checkout ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+.checkout ul li img {
+  width: 100px;
+}
+.checkout-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.checkout-detail button {
+  width: fit-content;
+  border: none;
+  background: #0056d2;
+  color: #fff;
+  font-size: 15px;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+/* ==== */
+.checkout-cal {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+  width: 400px;
+  min-width: 100px;
+  border: 1px solid #eee;
+  padding: 1rem;
+  height: fit-content;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.checkout-cal div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+.checkout-cal button {
+  cursor: pointer;
+  border: none;
+  background-color: #0056d2;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.order-form div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-form button {
+  background-color: #0056d2;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: 300ms ease;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.order-form button:hover {
+  transform: scale(1.03);
+}
+.back {
+  background-color: #fff;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  padding: 0.2rem 1rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  transition: 300ms ease;
+}
+.back:hover {
+  background-color: #0056d2;
+  color: #fff;
+}
+
+@media screen and (max-width: 736px) {
+  .checkout-container {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 486px) {
+  .checkout-cal {
+    width: 300px;
+  }
+  .checkout ul li {
+    width: 100%;
+    margin-left: -4.3rem;
+  }
+}

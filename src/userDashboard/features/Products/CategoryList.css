@@ -1,0 +1,61 @@
+/* Flexbox Layout (For Desktop and Larger Screens) */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+.category-container h2::before {
+  content: "";
+  height: 100%;
+  width: 3rem;
+  border: 4px solid #0056d2;
+  margin-right: 10px;
+}
+.category-container h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.category-container button {
+  background-color: #0056d2;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 3px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.category-item {
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  transition: transform 0.2s ease;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+}
+
+/* Swiper Layout (For Mobile and Tablet) */
+.category-container .swiper-container {
+  display: block;
+}
+
+/* Hide Flexbox layout for small screens */
+.category-flex-container {
+  display: none;
+}
+
+/* Media Queries for Tablets and Mobile */
+@media (max-width: 1024px) {
+  .category-container .swiper-container {
+    display: block;
+  }
+}
+/* ============================================= */
+.shop-container-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 4rem;
+  gap: 2rem;
+}

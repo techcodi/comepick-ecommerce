@@ -1,0 +1,16 @@
+.search-ul {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0;
+  padding: 1rem 0.7rem;
+}
+.search {
+  padding-top: 8rem;
+}
+
+@media (max-width: 768px) {
+  .search-ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}

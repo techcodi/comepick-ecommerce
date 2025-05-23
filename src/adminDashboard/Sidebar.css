@@ -1,0 +1,27 @@
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+.sidebar-content .logo {
+  margin-bottom: 5rem;
+}
+.routes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: -3rem;
+}
+.routes-list a {
+  cursor: pointer;
+  color: #f4f3ec;
+  padding: 10px 10px;
+  font-weight: 600;
+  transition: 300ms ease-in-out;
+  width: 100%;
+}
+.routes-list a:hover {
+  background-color: #fff;
+  color: #11191f;
+}

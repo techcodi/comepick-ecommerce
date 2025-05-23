@@ -1,0 +1,110 @@
+/* Full Page Layout */
+label {
+  font-weight: bold;
+}
+.login-page {
+  display: flex;
+  height: 100dvh;
+  min-height: 100dvh;
+  background: linear-gradient(to right, #dedede 50%, #0077ff 50%);
+  overflow-y: hidden;
+}
+
+/* Left Login Form Container */
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassy Form Box */
+.form-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input Fields */
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid #0077ff;
+  outline: none;
+  background: transparent;
+}
+
+/* Password Container */
+.password-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.password-wrap label {
+  text-align: left;
+}
+.input-wrap span {
+  margin-top: 1rem;
+}
+
+/* Links & Buttons */
+.forgot {
+  display: block;
+  text-align: left;
+  margin-top: -10px;
+  font-size: 0.85rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.login-btn {
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-link {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.signup-link a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* Right Side Cart */
+.cart-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

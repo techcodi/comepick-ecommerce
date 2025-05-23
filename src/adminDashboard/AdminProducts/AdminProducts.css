@@ -1,0 +1,11 @@
+.admin-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.admin-products div {
+  text-align: center;
+}
+.admin-products div img {
+  width: 50%;
+}
