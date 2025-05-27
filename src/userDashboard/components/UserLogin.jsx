@@ -11,7 +11,7 @@ import { RxEyeClosed } from "react-icons/rx";
 
 export default function UserLogin() {
   const [showPassword, setShowPassword] = useState(false);
-  const { user, isAdmin } = useAuth();
+  const { user } = useAuth();
   const { register, handleSubmit, formState: isSubmitting } = useForm();
   const navigate = useNavigate();
   // async function onSubmitLogin(data) {
