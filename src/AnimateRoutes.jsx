@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Home from "./userDashboard/components/Home";
 import UserLogin from "./userDashboard/components/UserLogin";
-import UserSignup from "./userDashboard/components/userSignup";
+import UserSignup from "./userDashboard/components/UserSignup";
 import ProtectedRoute from "./userDashboard/context/ProtectedRoute";
 import CategoryList from "./userDashboard/features/Products/CategoryList";
 import ProductID from "./userDashboard/features/Products/ProductID";
